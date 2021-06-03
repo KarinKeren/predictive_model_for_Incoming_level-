@@ -2,7 +2,8 @@
 The following repository present predictive Logistic-Regression model for the income level of certain population
 
 # Files:
-To open the main code, simply open donor_income.ipynb on any desktop browser, or you can download and run the cells. 
+The main code -Python 
+The data file - csv
 
 # Overview:
 I've asked to build a predictive model for the income level of certain population.
@@ -16,14 +17,15 @@ d. Evaluating performance
 e. Conclusions
 
 Supervised Algorithms Used:
-The main code implemented supervised learning algorithms (Logistic-Regression) in Scikit-learn, evaluated the best algorithm that fit the data, then optimized the classifier using Principal component analysis (Principal component analysis).
+The main code implemented supervised learning algorithms (Logistic-Regression) in Scikit-learn, evaluated the best algorithm that fit the data (optimize using Principal component analysis (PCA).
 
 # Data
 
-The dataset used in this project is included as income_pred.csv. The modified census dataset consists of approximately 32,000 data points, with each datapoint having 14 features.
+The dataset used in this project is included as income_pred.csv. Th dataset consists of approximately 32,000 data points, with each datapoint having 14 features.
 
 # Features
 
+ID : count
 age: Age
 workclass: Working Class (Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked)
 education_level: Level of Education (Bachelors, Masters, Doctorate, Assoc-voc,etc)
